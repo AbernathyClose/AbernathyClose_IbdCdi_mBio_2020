@@ -1,7 +1,8 @@
 # Data
 /data/**
 !/data/**/
-!/data/mothur/raw/**
+!/data/mothur/process/**
+/data/mothur/process/intermediate/**
 
 # Logs
 /logs/**
