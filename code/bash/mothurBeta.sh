@@ -31,4 +31,4 @@ echo PROGRESS: Calculating beta diversity and subsampling to "${READCOUNT}" read
 
 # Calculating alpha and beta diversity
 # If a sample doesn't have enough reads, it'll be eliminated from the analysis
-mothur "#dist.shared(shared="${SHARED}", calc="${BETA}", subsample="${READCOUNT}")"
+mothur "#dist.shared(shared="${SHARED}", calc="${BETA}", subsample="${READCOUNT}", groups=cecum.592.d15-cecum.594.d15-cecum.595.d15-cecum.597.d15-cecum.598.d15-cecum.599.d15-cecum.600.d15-cecum.602.d15-cecum.603.d15-colon.592.d15-colon.594.d15-colon.595.d15-colon.597.d15-colon.598.d15-colon.599.d15-colon.600.d15-colon.602.d15-colon.603.d15)"
